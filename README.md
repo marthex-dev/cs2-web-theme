@@ -17,6 +17,7 @@ Demo: https://marthex.dev/cs2/
 
 - **Node.js:** Projeyi çalıştırmak için [Node.js](https://nodejs.org/) gereklidir.
 - **Visual Studio Code (VS Code):** Geliştirme ortamı olarak [VS Code](https://code.visualstudio.com/) önerilir.
+  
 ---
 
 ## Kurulum
@@ -56,6 +57,7 @@ Demo: https://marthex.dev/cs2/
 
 - **Yapılandırma:**
   - components klasörü içindeki dosyalardan yazıları ve ayarları değiştirebilirsiniz.
+    
 ---
 
 ## Katkıda Bulunma

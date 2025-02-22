@@ -11,14 +11,12 @@ Bu bilgileri alabilmek için discord üzerinden benden JSON dosyası almanız ge
 
 Demo: https://marthex.dev/cs2/
 
----
 
 ## Gereksinimler
 
 - **Node.js:** Projeyi çalıştırmak için [Node.js](https://nodejs.org/) gereklidir.
 - **Visual Studio Code (VS Code):** Geliştirme ortamı olarak [VS Code](https://code.visualstudio.com/) önerilir.
   
----
 
 ## Kurulum
 
@@ -32,7 +30,6 @@ Demo: https://marthex.dev/cs2/
      npm i
      ```
 
----
 
 ## Çalıştırma
 
@@ -51,21 +48,18 @@ Demo: https://marthex.dev/cs2/
   - Build işlemi tamamlandığında, proje dosyaları `build` klasörü altında toplanır.
   - Elde edilen `build` klasörünü, tercih ettiğiniz bir web hosting servisine aktararak temayı yayınlayabilirsiniz.
 
----
 
 ## Tema Yapılandırması & Özelleştirme
 
 - **Yapılandırma:**
   - components klasörü içindeki dosyalardan yazıları ve ayarları değiştirebilirsiniz.
     
----
 
 ## Katkıda Bulunma
 
 - Projeye katkıda bulunmak isteyenler, discord üzerinden bildirerek destek olabilir.
 - Kod standardı ve dokümantasyonun güncel tutulması, projenin sürdürülebilirliği açısından büyük önem taşımaktadır.
 
----
 
 ## Lisans
 

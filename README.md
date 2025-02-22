@@ -1,4 +1,4 @@
-# CS2 Jailbreak & ProPublic Teması
+## CS2 Jailbreak & ProPublic Teması
 
 Bu proje, GameTracker verilerini kullanarak anlık olarak aşağıdaki bilgileri görüntülemeyi amaçlar:
 
@@ -9,6 +9,7 @@ Bu proje, GameTracker verilerini kullanarak anlık olarak aşağıdaki bilgileri
 
 Bu bilgileri alabilmek için discord üzerinden benden JSON dosyası almanız gerekmektedir. https://marthex.dev/ üzerinden discorduma katılarak hızlıca alabilirsiniz.
 
+Demo: https://marthex.dev/cs2/
 ---
 
 ## Gereksinimler

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+
+.hero-container {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background: url('../media/1329760.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Rajdhani', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 650px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+
+.hero-content h1 span {
+  color: #F39C12;
+}
+
+.hero-content > p {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.hero-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.hero-btn {
+  background: #F39C12;
+  color: white;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #E67E22;
+}
+
+.hero-cta-text {
+  padding-left: 30px;
+  border-left: 3px solid #F39C12;
+}
+
+.hero-cta-text h2 {
+  color: #F39C12;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.hero-cta-text p {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 0 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-cta-text {
+    padding-left: 20px;
+  }
+} 

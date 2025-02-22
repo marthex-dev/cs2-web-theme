@@ -1,0 +1,55 @@
+.discord-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../media/thumb-1920-1291249.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.discord-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.discord-icon {
+  font-size: 64px;
+  color: #7289DA;
+  margin-bottom: 20px;
+}
+
+.discord-content h2 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.discord-content p {
+  color: #cccccc;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.discord-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #7289DA;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.discord-button:hover {
+  background-color: #5b73d4;
+  transform: translateY(-2px);
+}
+
+.discord-button i {
+  font-size: 20px;
+} 

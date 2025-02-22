@@ -15,4 +15,5 @@ Bu proje, GameTracker verilerini kullanarak aşağıdaki bilgileri anlık görü
 
 1. İndirdiğiniz dosyayı VS Code ile açın:
    ```bash
-   cd proje-klasoru
+   npm i ```
+yazınız.

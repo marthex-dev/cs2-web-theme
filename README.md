@@ -13,6 +13,6 @@ Bu proje, GameTracker verilerini kullanarak aşağıdaki bilgileri anlık görü
 
 ## Kurulum
 
-1. Proje klasörüne gidin:
+1. İndirdiğiniz dosyayı VS Code ile açın:
    ```bash
    cd proje-klasoru

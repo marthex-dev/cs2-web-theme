@@ -70,7 +70,7 @@ const Statistics = () => {
 
       <div className="statistics-players">
         <h2>Aktif Oyuncular</h2>
-        {stats.players.length > 0 ? (
+        {stats?.players?.length > 0 ? (
           <table>
             <thead>
               <tr>
@@ -80,7 +80,7 @@ const Statistics = () => {
               </tr>
             </thead>
             <tbody>
-              {stats.players.map((player, index) => (
+              {stats?.players?.map((player, index) => (
                 <tr key={index}>
                   <td>{index + 1}</td>
                   <td>{player.name}</td>
